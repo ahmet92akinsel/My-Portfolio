@@ -1,0 +1,133 @@
+/*background*/
+
+body, html{
+    background-image: url(/home/ahmet/Projects/My-Portfolio/40012769_10156919818629095_7280083988943732736_o_720.jpg);
+    height: %60;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* image*/
+/*(/home/ahmet/Projects/My-Portfolio/35227940_10157429586595130_2994314855034388480_n_720.png);*/
+img{
+    border-radius: 55%;
+    width: 350px;
+    height: 350px;
+    padding-right: 100px;
+    padding-left: 120px;   
+}
+
+/* body elements*/
+
+h2,h3, span {
+display: flex;
+justify-content: center;
+ color: #fff
+}
+
+h2,h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #fff
+}
+
+h4 {
+    font-size: 35px;
+    font: outline; font-style: unset; 
+    font-family: 'Raleway', sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #fff
+
+}
+    
+p {
+    font-size: 25px;
+    font: outline; font-style: unset; 
+    font-family: 'Raleway', sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #fff
+}
+
+li {
+    font-size: 25px;
+    font-style: unset; 
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: center;    
+}
+
+/*link*/
+a{
+    color: white;
+}
+
+/*social media*/
+
+.fa {  
+    padding: 20px;  
+    font-size: 30px;  
+    width: 50px;  
+    text-align: center;  
+    text-decoration: none;
+    border-radius:55%;
+    display: flex;
+    justify-content: center;
+}
+   
+.fa:hover {  
+    opacity: 0.7;
+}
+ 
+.fa-facebook {  
+    background: #3B5998;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fa-instagram {
+        background: #125688;
+        color: white;
+        display: flex;
+        justify-content: center;
+{
+/* icon bar*/
+
+body {margin:0}
+
+.icon-bar {
+  width: 200px;
+  background-color: #555;
+  size: 300px;
+}
+
+.icon-bar a {
+
+  display: block;
+  text-align: center;
+  padding: 30px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 50px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
