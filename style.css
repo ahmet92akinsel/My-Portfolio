@@ -5,7 +5,14 @@ body, html{
     height: %60;
     background-position: center;
     background-size: cover;
+    background-color: black; 
     
+}
+
+.content {
+display: flex;
+justify-content: center;
+flex-direction: column;
 }
 
 /* image*/
@@ -41,6 +48,7 @@ h4 {
     color: #fff;
     display: flex;
     justify-content: center;
+    
 }
 span {
     font-family: 'Raleway', sans-serif;
@@ -56,6 +64,21 @@ p {
     padding-left: 60px;
     padding-right: 60px;
     color: #fff
+    
+}
+
+.bio {
+
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.3);
+    align-self:center;
+}
+.parag {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
 }
 
 li {
@@ -75,15 +98,21 @@ a{
 
 /*social media*/
 
+
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
 .fa {  
     padding: 20px;  
     font-size: 30px;  
-    width: 50px;  
+    width:10px;  
+    height: 10px;
     text-align: center;  
     text-decoration: none;
-    border-radius:55%;
-    display: flex;
-    justify-content: center;
+    border-radius:50%;
 }
    
 .fa:hover {  
@@ -93,25 +122,26 @@ a{
 .fa-facebook {  
     background: #3B5998;  
     color: white;
-    display: flex;
-    justify-content: center;
-    
+
 }
 
 .fa-instagram {
         background: #125688;
         color: white;
-        display: flex;
-        justify-content: center;
-{
+        margin-left: 10px;
+        }
+
 /* icon bar*/
 
-body {margin:0}
+body {
+    margin:0
+}
 
 .icon-bar {
   width: 200px;
-  background-color: #555;
   size: 300px;
+  display: flex;
+  flex-direction: row;
 }
 
 .icon-bar a {
@@ -122,12 +152,9 @@ body {margin:0}
   transition: all 0.3s ease;
   color: white;
   font-size: 50px;
+  padding-right: 50px;
 }
 
 .icon-bar a:hover {
   background-color: #000;
-}
-
-.active {
-  background-color: #4CAF50;
 }
