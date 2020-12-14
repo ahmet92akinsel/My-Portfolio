@@ -1,12 +1,14 @@
 /*background*/
 
 body, html{
-    background-image: url(/home/ahmet/Projects/My-Portfolio/40012769_10156919818629095_7280083988943732736_o_720.jpg);
-    height: %60;
+    background-image: url(/home/ahmet/Projects/My-Portfolio/a_720.jpg);
+    height: %100;
     background-position: center;
     background-size: cover;
     background-color: black; 
-    
+    background-attachment: fixed;
+
+    /*  url(/home/ahmet/Projects/My-Portfolio/40012769_10156919818629095_7280083988943732736_o_720.jpg);*/
 }
 
 .content {
@@ -22,7 +24,8 @@ img{
     width: 350px;
     height: 350px;
     padding-right: 100px;
-    padding-left: 120px;   
+    padding-left: 120px;
+    
 }
 
 /* body elements*/
@@ -138,8 +141,8 @@ body {
 }
 
 .icon-bar {
-  width: 200px;
-  size: 300px;
+  width: 150px;
+  size: 200px;
   display: flex;
   flex-direction: row;
 }
