@@ -16,11 +16,13 @@
         href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         href="style.css">
+    
 
     <title>About Me</title>
 </head>
 
 <body>
+    
     <div class="content">
 
         <div class="icon-bar">
@@ -33,32 +35,26 @@
             <h2>Ahmet Akınsel</h2>
             <span>Musician</span>
         </div>
-        <br>
-        <!--
-    <div>
-        <img class="image1" src="/home/ahmet/Projects/My-Portfolio/imageedit_1_6447461894.jpg">
-        <img class="image3" src="/home/ahmet/Projects/My-Portfolio/118745706_1094237674326349_1957814926559171528_n.jpg">
-        <img class="image2" src="/home/ahmet/Projects/My-Portfolio/s1lack-imgs.com.jpeg">
-    </div> 
-    -->
-        <br>
-
-        <br>
-
+        <div>
+        </div>
+        <div>
+        </div>
+        <div>            
+        </div>
         <div class=>
-        <p>My name is Ahmet Akınsel. I was born in Nicosia, Cyprus. I started playing drums at the age of 14. At first,
+            <p>My name is Ahmet Akınsel. I was born in Nicosia, Cyprus. I started playing drums at the age of 14. At first,
             I started by taking private lessons and then improved on my own.</p>
         </div>
 
 
         <div>
             <h3>Bands</h3>
-            <ul>
-                <li class="BandsList">Ahmet Evan</li>
-                <li class="BandsList">Strange Union</li>
-                <li class="BandsList">Arrayan Path</li>
-                <li class="BandsList">Lo-fi Hop Jazz Project</li>
-            </ul>
+                <ul>
+                    <li class="BandsList">Ahmet Evan</li>
+                    <li class="BandsList">Strange Union</li>
+                    <li class="BandsList">Arrayan Path</li>
+                    <li class="BandsList">Lo-fi Hop Jazz Project</li>
+                </ul>
         </div>
         <div>
             <h3>Some Recordings</h3>
@@ -87,6 +83,30 @@
 
     </div>
 
+    <div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name" id="userName">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="userEmail" name="user_mail" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="userMsg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit" id="submitButton">Send your message</button>
+              </li>              
+            </ul>
+          </form>
+    </div>
+
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
